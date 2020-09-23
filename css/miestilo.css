@@ -1,0 +1,55 @@
+@import url(piedepagina.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: center;
+}
+body{
+    font-family: 'Lucida Calligraphy', sans-serif;
+}
+
+.contenedor{
+    display: flex;
+    width: 100%;
+    background:linear-gradient(#030101, #EA6C1B, #FFCD00, #000000);
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top:15px;
+    padding-bottom: 15px;
+    width: 100%;
+    text-align:center;
+    font-size: 12px;
+}
+.reproductor{
+    display: flex;
+    width: 100%;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top:15px;
+    padding-bottom: 15px;
+    width: 100%;
+    text-align:center;
+    font-size: 20px;
+}
+ #video_background {
+ position: absolute;
+ bottom: 0px;
+ right: 0px;
+ min-width: 100%;
+ min-height: 100%;
+ width: auto;
+ height: auto;
+ z-index: -1000;
+ overflow: hidden;
+ }
+ #video_pattern {
+ background:#fff;
+ position: fixed;
+ opacity: 0.8;
+ left: 0px;
+ top: 0px;
+ width: 100%;
+ height: 100%;
+ z-index: 1;
+ }
